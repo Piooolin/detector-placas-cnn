@@ -1,0 +1,28 @@
+# Entornos virtuales
+venv/
+venv-cnn/
+env/
+ENV/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Dataset (muy pesado)
+data/images/
+data/train/
+data/val/
+data/test/
+*.cache
+
+# Resultados temporales
+detecciones_*/
+runs/detect/predict*/
+
+# Modelos intermedios (solo subir best.pt)
+runs/detect/*/weights/last.pt
+
+# Sistema
+.DS_Store
+Thumbs.db
