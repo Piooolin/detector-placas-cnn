@@ -6,7 +6,7 @@ from datetime import datetime
 if __name__ == '__main__':
     model_path = 'runs/detect/detector_placas3/weights/best.pt'
     
-    image_path = 'test_image.jpg'
+    image_path = 'images/test_image13.jpg'
     
     output_folder = 'detecciones_placas'
     
